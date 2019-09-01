@@ -1,0 +1,6 @@
+framework module DryWeb_iOS {
+  umbrella header "DryWeb-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

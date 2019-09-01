@@ -1,0 +1,16 @@
+PODS:
+  - DryWeb-iOS (0.0.1)
+
+DEPENDENCIES:
+  - DryWeb-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  DryWeb-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DryWeb-iOS: 78eb562e935d1e5b0a9ac09aabd46769c67b3a26
+
+PODFILE CHECKSUM: 6c68426dad93457779dcdbd47e7165db23ffa18f
+
+COCOAPODS: 1.7.4

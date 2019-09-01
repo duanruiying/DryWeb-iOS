@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DBAB4735FECA076C4826E89D04BD42E /* Pods-DryWeb-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A132C9E8D25B8018990882D8389FE1F /* Pods-DryWeb-iOS_Example-dummy.m */; };
+		1E6284D061AB52582FE8E3A681B40FFC /* Pods-DryWeb-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C564E658F8EA6D5E714A995FDC21E4 /* Pods-DryWeb-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0267918BD9759FEB183D12A55A8EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */; };
+		289E374974DE05DD147DA0E0F2F1BFEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */; };
+		3587BAAA74CD8F784D7C4C09648FD69D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */; };
+		723AA70ADB1B1F88F0930A1837EECEB2 /* DryWeb-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD69E77F727157414A4A94D6C8B97A5 /* DryWeb-iOS-dummy.m */; };
+		9267232266944AD3295F93B88107C32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */; };
+		C17FCA66443829F2E654316643C9AEDA /* DryWeb-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A72D4C7870D870CC38610FFABD13F6B /* DryWeb-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8EA943BC7B74AF34512906A68342B8 /* DryWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040598D067E7ACE829468171D245E12 /* DryWebView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0146B6C5D41A70F77906F891DD7E66C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B6088207E818AF2C4D90A71E9F68E4;
+			remoteInfo = "DryWeb-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231038E361BC53BEA2F3BE18A86D6AD8 /* DryWeb-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryWeb-iOS-prefix.pch"; sourceTree = "<group>"; };
+		23C564E658F8EA6D5E714A995FDC21E4 /* Pods-DryWeb-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryWeb-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		2A132C9E8D25B8018990882D8389FE1F /* Pods-DryWeb-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DryWeb-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		61F5E5DC09AD185C4CF225CBEA9AADB0 /* DryWeb-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DryWeb-iOS.modulemap"; sourceTree = "<group>"; };
+		6A72D4C7870D870CC38610FFABD13F6B /* DryWeb-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryWeb-iOS-umbrella.h"; sourceTree = "<group>"; };
+		7040598D067E7ACE829468171D245E12 /* DryWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DryWebView.swift; path = "DryWeb-iOS/Classes/Code/DryWebView/DryWebView.swift"; sourceTree = "<group>"; };
+		70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		82AA95B1CEDA45CEAE4457CC486B8174 /* DryWeb-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DryWeb-iOS-Info.plist"; sourceTree = "<group>"; };
+		968C3E543C142BB32F18C98CA53ABAC5 /* Pods-DryWeb-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryWeb-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8B791978532CD6D0342D5F3BDFFDF5 /* DryWeb-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "DryWeb-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7723566879A969DACB983D89563BB4B /* Pods-DryWeb-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryWeb-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC54E055C70CD15FAF02681E38D05B4D /* DryWeb-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DryWeb-iOS.xcconfig"; sourceTree = "<group>"; };
+		AD24E1E42FA908F7C5D3694DF41AB197 /* Pods-DryWeb-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryWeb-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF471E38DFCFA2AA859EE8A4202BB03D /* Pods-DryWeb-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryWeb-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		B5DD0BE70DCD08BC51B66CFF921A1C03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B809B7F9FBCBCDD9D14F8EEFDC9828E9 /* Pods-DryWeb-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryWeb-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		BAD69E77F727157414A4A94D6C8B97A5 /* DryWeb-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DryWeb-iOS-dummy.m"; sourceTree = "<group>"; };
+		C15AFF4D214A4D656D72ADDC5CAE42B4 /* DryWeb_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DryWeb_iOS.framework; path = "DryWeb-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9F8B9CBAA98B3FD45F7768915A53C4 /* Pods_DryWeb_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DryWeb_iOS_Example.framework; path = "Pods-DryWeb-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA8F571BFB707A43B1B66A1D542B7E7 /* Pods-DryWeb-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryWeb-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D668B6F43B0113A19D304E4D8486E342 /* Pods-DryWeb-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DryWeb-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF698BB3CAA5C4AC76EE4636FE0FC4EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED9AFAB5FD54AFABC1179F4FA53EFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0267918BD9759FEB183D12A55A8EEB /* Foundation.framework in Frameworks */,
+				289E374974DE05DD147DA0E0F2F1BFEB /* UIKit.framework in Frameworks */,
+				3587BAAA74CD8F784D7C4C09648FD69D /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0F27CAEB9EF5C17C6DAB24E6ABECDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9267232266944AD3295F93B88107C32C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E51FDDCE74CEFD3C6FB4939A0E62F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */,
+				D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */,
+				70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01E51FDDCE74CEFD3C6FB4939A0E62F1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13F2A87CAC412B0274C25CD06FF2BDF8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E78AF61E2682E87251D987FCDDAC4A93 /* DryWeb-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2B0005931FC81F9BE673932B40B9B371 /* Pods-DryWeb-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AF471E38DFCFA2AA859EE8A4202BB03D /* Pods-DryWeb-iOS_Example.modulemap */,
+				A7723566879A969DACB983D89563BB4B /* Pods-DryWeb-iOS_Example-acknowledgements.markdown */,
+				AD24E1E42FA908F7C5D3694DF41AB197 /* Pods-DryWeb-iOS_Example-acknowledgements.plist */,
+				2A132C9E8D25B8018990882D8389FE1F /* Pods-DryWeb-iOS_Example-dummy.m */,
+				D668B6F43B0113A19D304E4D8486E342 /* Pods-DryWeb-iOS_Example-frameworks.sh */,
+				B809B7F9FBCBCDD9D14F8EEFDC9828E9 /* Pods-DryWeb-iOS_Example-Info.plist */,
+				23C564E658F8EA6D5E714A995FDC21E4 /* Pods-DryWeb-iOS_Example-umbrella.h */,
+				968C3E543C142BB32F18C98CA53ABAC5 /* Pods-DryWeb-iOS_Example.debug.xcconfig */,
+				CDA8F571BFB707A43B1B66A1D542B7E7 /* Pods-DryWeb-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-DryWeb-iOS_Example";
+			path = "Target Support Files/Pods-DryWeb-iOS_Example";
+			sourceTree = "<group>";
+		};
+		3FD1F9D36A1683F6744AAA6EA4626202 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0005931FC81F9BE673932B40B9B371 /* Pods-DryWeb-iOS_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4D9F03F05AC9CA2CF535E6E9F2AA4573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C15AFF4D214A4D656D72ADDC5CAE42B4 /* DryWeb_iOS.framework */,
+				CD9F8B9CBAA98B3FD45F7768915A53C4 /* Pods_DryWeb_iOS_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4BB4F52CD51C2CF068D0BB7FE07EC01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F5E5DC09AD185C4CF225CBEA9AADB0 /* DryWeb-iOS.modulemap */,
+				AC54E055C70CD15FAF02681E38D05B4D /* DryWeb-iOS.xcconfig */,
+				BAD69E77F727157414A4A94D6C8B97A5 /* DryWeb-iOS-dummy.m */,
+				82AA95B1CEDA45CEAE4457CC486B8174 /* DryWeb-iOS-Info.plist */,
+				231038E361BC53BEA2F3BE18A86D6AD8 /* DryWeb-iOS-prefix.pch */,
+				6A72D4C7870D870CC38610FFABD13F6B /* DryWeb-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DryWeb-iOS";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				13F2A87CAC412B0274C25CD06FF2BDF8 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				4D9F03F05AC9CA2CF535E6E9F2AA4573 /* Products */,
+				3FD1F9D36A1683F6744AAA6EA4626202 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E78AF61E2682E87251D987FCDDAC4A93 /* DryWeb-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7040598D067E7ACE829468171D245E12 /* DryWebView.swift */,
+				EC40555FA805BFE6C0C61331A943CB9B /* Pod */,
+				B4BB4F52CD51C2CF068D0BB7FE07EC01 /* Support Files */,
+			);
+			name = "DryWeb-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EC40555FA805BFE6C0C61331A943CB9B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B791978532CD6D0342D5F3BDFFDF5 /* DryWeb-iOS.podspec */,
+				B5DD0BE70DCD08BC51B66CFF921A1C03 /* LICENSE */,
+				EF698BB3CAA5C4AC76EE4636FE0FC4EA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E4967258B77F01AAC61BA4B66AC800D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6284D061AB52582FE8E3A681B40FFC /* Pods-DryWeb-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EDE8042C039E05C8D8017F431BADAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17FCA66443829F2E654316643C9AEDA /* DryWeb-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C0195E79BE8160D29703CBE3867984F /* Pods-DryWeb-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DA76C11980D29531D50537D1F90A50 /* Build configuration list for PBXNativeTarget "Pods-DryWeb-iOS_Example" */;
+			buildPhases = (
+				5E4967258B77F01AAC61BA4B66AC800D /* Headers */,
+				C46607719EAD41FCFFEB9A5EAD8A1F61 /* Sources */,
+				3C0F27CAEB9EF5C17C6DAB24E6ABECDF /* Frameworks */,
+				EECAD0F051964525A049C4DB1E6C0E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5ACEA599BF95775AE5089B804D2B10E /* PBXTargetDependency */,
+			);
+			name = "Pods-DryWeb-iOS_Example";
+			productName = "Pods-DryWeb-iOS_Example";
+			productReference = CD9F8B9CBAA98B3FD45F7768915A53C4 /* Pods_DryWeb_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6B6088207E818AF2C4D90A71E9F68E4 /* DryWeb-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2774E404AD3962D1080A29FC8B69794A /* Build configuration list for PBXNativeTarget "DryWeb-iOS" */;
+			buildPhases = (
+				B7EDE8042C039E05C8D8017F431BADAC /* Headers */,
+				0DBF2D59E86D48A2303B93418B669B9D /* Sources */,
+				1ED9AFAB5FD54AFABC1179F4FA53EFFC /* Frameworks */,
+				6FC6F7BA48CBF501DB450FEDF1AFF806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DryWeb-iOS";
+			productName = "DryWeb-iOS";
+			productReference = C15AFF4D214A4D656D72ADDC5CAE42B4 /* DryWeb_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4D9F03F05AC9CA2CF535E6E9F2AA4573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6B6088207E818AF2C4D90A71E9F68E4 /* DryWeb-iOS */,
+				6C0195E79BE8160D29703CBE3867984F /* Pods-DryWeb-iOS_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FC6F7BA48CBF501DB450FEDF1AFF806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECAD0F051964525A049C4DB1E6C0E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DBF2D59E86D48A2303B93418B669B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723AA70ADB1B1F88F0930A1837EECEB2 /* DryWeb-iOS-dummy.m in Sources */,
+				DB8EA943BC7B74AF34512906A68342B8 /* DryWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46607719EAD41FCFFEB9A5EAD8A1F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBAB4735FECA076C4826E89D04BD42E /* Pods-DryWeb-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5ACEA599BF95775AE5089B804D2B10E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DryWeb-iOS";
+			target = F6B6088207E818AF2C4D90A71E9F68E4 /* DryWeb-iOS */;
+			targetProxy = 0146B6C5D41A70F77906F891DD7E66C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2855693C8CEE4F172E1FC8EDA3574CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC54E055C70CD15FAF02681E38D05B4D /* DryWeb-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryWeb-iOS/DryWeb-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryWeb-iOS/DryWeb-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DryWeb-iOS/DryWeb-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryWeb_iOS;
+				PRODUCT_NAME = DryWeb_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2957F6E3D649B34ED0A04915790EC704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC54E055C70CD15FAF02681E38D05B4D /* DryWeb-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryWeb-iOS/DryWeb-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryWeb-iOS/DryWeb-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DryWeb-iOS/DryWeb-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryWeb_iOS;
+				PRODUCT_NAME = DryWeb_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79B8BE0ED0B0E86FA1AADD6D35A2DD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA8F571BFB707A43B1B66A1D542B7E7 /* Pods-DryWeb-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryWeb-iOS_Example/Pods-DryWeb-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryWeb-iOS_Example/Pods-DryWeb-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E19CC440E5D6EEBA05A4F48760FF6FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968C3E543C142BB32F18C98CA53ABAC5 /* Pods-DryWeb-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryWeb-iOS_Example/Pods-DryWeb-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryWeb-iOS_Example/Pods-DryWeb-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2774E404AD3962D1080A29FC8B69794A /* Build configuration list for PBXNativeTarget "DryWeb-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2855693C8CEE4F172E1FC8EDA3574CB5 /* Debug */,
+				2957F6E3D649B34ED0A04915790EC704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DA76C11980D29531D50537D1F90A50 /* Build configuration list for PBXNativeTarget "Pods-DryWeb-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19CC440E5D6EEBA05A4F48760FF6FCD /* Debug */,
+				79B8BE0ED0B0E86FA1AADD6D35A2DD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
