@@ -208,7 +208,7 @@ extension DryWebView {
             return
         }
         
-        let request: URLRequest = URLRequest.init(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: timeoutInterval)
+        let request: URLRequest = URLRequest.init(url: url, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: timeoutInterval)
         self.webView.load(request)
     }
     
